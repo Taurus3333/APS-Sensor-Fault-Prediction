@@ -1,26 +1,4 @@
-# sensor_fault_detection
-This is a fault detection project using sensor reading.
-
-
-for linux:
-$(pwd)/airflow/dags
-
-docker run -p 8080:8080 -v %cd%\airflow\dags:/app/airflow/dags -e 'MONGO_DB_URL=mongodb+srv://avnish:Aa327030@cluster0.or68e.mongodb.net/?retryWrites=true&w=majority' sensor:latest 
-
-
-
-Github Secrets:
-```
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_REGION=
-AWS_ECR_LOGIN_URI=
-ECR_REPOSITORY_NAME=
-BUCKET_NAME=
-MONGO_DB_URL=
-```
-# Sensor-APS-Fault-Prediction
-# Sensor-Fault-Detection
+# APS Sensor-Fault-Detection
 
 ### Problem Statement
 The Air Pressure System (APS) is a critical component of a heavy-duty vehicle that uses compressed air to force a piston to provide pressure to the brake pads, slowing the vehicle down. The benefits of using an APS instead of a hydraulic system are the easy availability and long-term sustainability of natural air.
@@ -46,6 +24,17 @@ The problem is to reduce the cost due to unnecessary repairs. So it is required 
 3. AWS ECR
 4. Git Actions
 
+
+Github Secrets:
+```
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_REGION=
+AWS_ECR_LOGIN_URI=
+ECR_REPOSITORY_NAME=
+BUCKET_NAME=
+MONGO_DB_URL=
+```
 
 ## Data Collections
 ![image](https://user-images.githubusercontent.com/57321948/193536736-5ccff349-d1fb-486e-b920-02ad7974d089.png)
@@ -85,12 +74,12 @@ export MONGODB_URL="Replace your mongodb atlas uri here"
 python app.py
 
 
-### Step 6. Train application (If FastAPI runs sucesfully you'get have endpoint like below)
+### Step 6. Train application (If FastAPI runs succesfully you'get have endpoint like below)
 http://localhost:8080/train
 
 
-### Step 7. Prediction application (If FastAPI runs sucesfully you'get have endpoint like below)
+### Step 7. Prediction application (If FastAPI runs succesfully you'get have endpoint like below)
 
 http://localhost:8080/predict
 
-# APS-Sensor-Fault-Prediction
+
