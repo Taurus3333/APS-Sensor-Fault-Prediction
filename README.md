@@ -20,13 +20,13 @@ Minimize **false negatives** as they result in **50x higher repair costs** than 
 
 ## 🛠️ Tech Stack Description
 
-| 🐍 Python - Core ML development 
-| 🐳 Docker - Containerization 
-| 🧬 MLflow - Model tracking & comparison 
-| ⚙️ GitHub Actions - CI/CD pipeline 
-| 🧮 Airflow - Workflow orchestration (prod) 
-| 🚦 Prometheus - Monitoring & metrics 
-| ⚡ FastAPI - Real-time inference API 
+    | 🐍 Python - Core ML development 
+    | 🐳 Docker - Containerization 
+    | 🧬 MLflow - Model tracking & comparison 
+    | ⚙️ GitHub Actions - CI/CD pipeline 
+    | 🧮 Airflow - Workflow orchestration (prod) 
+    | 🚦 Prometheus - Monitoring & metrics 
+    | ⚡ FastAPI - Real-time inference API 
 
 ## ☁️ Infrastructure Overview
 <img height="50" src="https://user-images.githubusercontent.com/25181517/183896132-54262f2e-6d98-41e3-8888-e40ab5a17326.png">       <img height="50" src="https://user-images.githubusercontent.com/25181517/183868728-b2e11072-00a5-47e2-8a4e-4ebbb2b8c554.png">   
@@ -37,9 +37,11 @@ Minimize **false negatives** as they result in **50x higher repair costs** than 
 | **Sandbox / Dev** | Docker Compose, FastAPI, MLflow, Prometheus            |
 
 
-✅ AWS Services Used: EC2, S3, ECR, IAM
-✅ Prod MLOps Tools: Docker, GitHub Actions, Airflow
-✅ Dev Environment: FastAPI, MLflow, Prometheus
+    ✅ AWS Services Used: EC2, S3, ECR, IAM
+
+    ✅ Prod MLOps Tools: Docker, GitHub Actions, Airflow
+
+    ✅ Dev Environment: FastAPI, MLflow, Prometheus
 
 
 
