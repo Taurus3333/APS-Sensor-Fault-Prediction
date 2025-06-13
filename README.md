@@ -1,13 +1,8 @@
 # 1.0 Sensor Fault Detection Using Official Scania Dataset
 An end-to-end predictive maintainance Data Science project to predict APS sensor fault detection, based on Scania dataset from Kaggle. 
 
-# 1.0 Sensor Fault Detection Using Official Scania Dataset
 
-An end-to-end predictive maintenance Data Science project to predict APS sensor fault detection, based on the Scania dataset from Kaggle.
-
-## Scania Truck
-
-![Scania Truck](./Scania.jpg)
+![Scania Truck](Scania.jpg)
 
 
 ## 2.0 Problem Statement
