@@ -18,9 +18,15 @@ As the problem is to reduce the cost due to unnecessary repairs, it is important
 ## Infrastructure Required 
 <img height="50" src="https://user-images.githubusercontent.com/25181517/183896132-54262f2e-6d98-41e3-8888-e40ab5a17326.png">       <img height="50" src="https://user-images.githubusercontent.com/25181517/183868728-b2e11072-00a5-47e2-8a4e-4ebbb2b8c554.png">   
 
-**AWS Services** : IAM,EC2,S3,ECR
 
-## 4.0 Data Description
+```
+AWS Services: IAM,EC2,S3,ECR
+MlOps Infrastructure in Production: Docker, GithubActions , Airflow
+MlOps Infrastructure in Sanboxed / Testing (For stakeholder facing services): FASTAPI , Mlflow , Prometheus
+
+```
+
+## Data Description
 **The dataset** The dataset consists of data collected from heavy Scania trucks in everyday usage. The system in focus is the Air Pressure system (APS) which generates pressurised air that are utilized in various functions in a truck, such as braking and gear changes. The datasets' positive class consists of component failures for a specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS. The data consists of a subset of all available data, selected by experts. The goal is to predict `class` 0 or 1. There are 171 independent variables available in the dataset.
 
 The dataset is highly imbalanced with 59000 instance of neg class and only 1000 instance of pos class.
@@ -31,5 +37,44 @@ Target variable:
 Dataset Source Link :
 [Sensor_fault_detection](https://www.kaggle.com/datasets/uciml/aps-failure-at-scania-trucks-data-set)
 
+
+
+## Data Collections
+![image](https://user-images.githubusercontent.com/57321948/193536736-5ccff349-d1fb-486e-b920-02ad7974d089.png)
+
+
+## Project Archietecture
+![image](https://user-images.githubusercontent.com/57321948/193536768-ae704adc-32d9-4c6c-b234-79c152f756c5.png)
+
+
+## Deployment Archietecture
+![image](https://user-images.githubusercontent.com/57321948/193536973-4530fe7d-5509-4609-bfd2-cd702fc82423.png)
+
+
+## How to run?
+Before we run the project, make sure that you are having MongoDB in your local system, with Compass since we are using MongoDB for data storage. You also need AWS account to access the service like S3, ECR and EC2 instances.
+
+
+### Step 1: Clone the repository
+
+
+### Step 2- Create a conda environment after opening the repository
+
+
+### Step 3 - Install the requirements
+
+### Step 4 - Export the environment variable (Production environment)
+
+export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
+
+export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
+
+export AWS_DEFAULT_REGION=<AWS_DEFAULT_REGION>
+
+export MONGODB_URL="PASTE YOUR ATLAS URI HERE"
+
+### Step 5 - Run the application server (Stakeholder facing service for train and test without affecting Production environment)
+
+python app.py
 
 
