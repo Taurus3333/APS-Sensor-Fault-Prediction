@@ -61,7 +61,8 @@ Minimize **false negatives** as they result in **50x higher repair costs** than 
 
     ⚠️ This is a highly imbalanced dataset, which requires careful sampling and evaluation.
 
-    Dataset Source Link :
+## Dataset Source Link :
+
     [Sensor_fault_detection](https://www.kaggle.com/datasets/uciml/aps-failure-at-scania-trucks-data-set)
 
 
