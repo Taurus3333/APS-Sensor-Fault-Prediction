@@ -1,4 +1,4 @@
-# Sensor Fault Detection Using Official Scania Dataset
+# Sensor Fault Detection in APS using production grade MlOps pipelines
 
 
 ![Scania Truck](Scania.jpg)
