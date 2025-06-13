@@ -1,14 +1,18 @@
 # 1.0 Sensor Fault Detection Using Official Scania Dataset
 An end-to-end predictive maintainance Data Science project to predict APS sensor fault detection, based on Scania dataset from Kaggle. 
 
-<img src="https://github.com/Bhardwaj-Saurabh/Sensor_Fault_Detection_Scania/blob/master/images/Scania.jpg">
+![Scania Truck](./Scania.jpg)
+<p align="center">
+  <img src="Scania.jpg" alt="Scania Truck" width="400"/>
+</p>
+
 
 ## 2.0 Problem Statement
 The Air Pressure System (APS) is a critical component of a heavy-duty vehicle that uses compressed air to force a piston to provide pressure to the brake pads, slowing the vehicle down. The benefits of using an APS instead of a hydraulic system are the easy availability and long-term sustainability of natural air. The data set is provided by Scania with open source licence.
 
 This is a Binary Classification problem, in which the affirmative class indicates that the failure was caused by a certain component of the APS, while the negative class indicates that the failure was caused by something else.
 
-As the problem is to reduce the cost due to unnecessary repairs, it is important to reduce false positives and false negatives. More importantly, to reduce false negatives, since cost incurred due to false negative is 50 times higher than the false positives as shown in [EDA notebook.](https://github.com/Bhardwaj-Saurabh/Sensor_Fault_Detection_Scania/blob/master/notebooks/Scania_APS_failure_prediction.ipynb) 
+As the problem is to reduce the cost due to unnecessary repairs, it is important to reduce false positives and false negatives. More importantly, to reduce false negatives, since cost incurred due to false negative is 50 times higher than the false positives.
 
 ## 3.0 Tech Stack Used
 <img height="50" src="https://user-images.githubusercontent.com/25181517/192108891-d86b6220-e232-423a-bf5f-90903e6887c3.png">          <img height="50" src="https://user-images.githubusercontent.com/25181517/183914128-3fc88b4a-4ac1-40e6-9443-9a30182379b7.png">       <img height="50" src="https://www.macobserver.com/wp-content/uploads/2019/05/workfeatured-GitHub-2.png">       <img height="50" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png">       <img height="50" src="https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png">       <img height="50" src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png">
