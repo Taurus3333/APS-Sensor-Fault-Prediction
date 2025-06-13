@@ -1,5 +1,3 @@
-# Sensor Fault Detection in APS using production grade MlOps pipelines
-
 
 ![Scania Truck](Scania.jpg)
 
@@ -47,8 +45,6 @@ Minimize **false negatives** as they result in **50x higher repair costs** than 
 
 ## 📂 Dataset Overview
 
-    Source: Kaggle - APS Failure at Scania Trucks
-
     Features: 171 sensor features (continuous & categorical)
 
     Target: class (0 = not APS fault, 1 = APS fault)
@@ -60,11 +56,6 @@ Minimize **false negatives** as they result in **50x higher repair costs** than 
     Class 1: ~1,000 samples
 
     ⚠️ This is a highly imbalanced dataset, which requires careful sampling and evaluation.
-
-## Dataset Source Link :
-
-    [Sensor_fault_detection](https://www.kaggle.com/datasets/uciml/aps-failure-at-scania-trucks-data-set)
-
 
 
 ## Data Collections
